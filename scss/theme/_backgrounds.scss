@@ -1,0 +1,31 @@
+//==================================
+// Background Colors
+//==================================
+.white-bg {
+	background-color: white;
+}
+
+.blue-bg {
+	background-color: $blue;
+}
+
+.blue-gradient-bg {
+    background: linear-gradient($blue, darken($blue, 4.5%));
+    // background: linear-gradient($blue, $dark-blue);
+}
+
+.red-bg {
+	background-color: $red;
+}
+
+.gray-bg {
+    background-color: $grey;
+}
+
+.yellow-bg {
+    background-color: $yellow;
+}
+
+.cyan-bg {
+    background-color: $cyan;
+}

@@ -1,5 +1,9 @@
+@import 'variables';
 //Framework
 @import 'framework/bootstrap';
-
+//Layout
+@import 'layout/all';
+//Modules
+@import 'modules/all';
 //Theme
-@import 'theme/globals';
+@import 'theme/all';

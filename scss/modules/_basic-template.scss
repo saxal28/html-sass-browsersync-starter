@@ -1,0 +1,36 @@
+//================================================
+// Jumbotron
+//================================================
+.basic-template-jumbotron {
+    height: 550px;   
+}
+
+.jumbotron-btn {
+    margin-top: 60px;
+}
+
+.grid-break-card {
+    margin-top: -100px;
+}
+
+.jumbotron.jumbotron-filler {
+    height: 50vh;
+    background-color: $slate;
+}
+//================================================
+// Tabs
+//================================================
+.tab-container {
+    background: white;
+    li.active a::after {
+        content: '';
+        border-bottom: solid 3px $red;
+        display: block;
+        width: 40px;
+        margin: 8px auto 0 auto;
+    }
+}
+
+a.tab-arrow.no-bottom.red-text {
+    text-align: right;
+}

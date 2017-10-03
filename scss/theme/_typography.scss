@@ -1,0 +1,113 @@
+//==================================
+// Font Families
+//==================================
+@mixin hero-headline {
+    font-family: $hero-headline;
+    font-size: $hero-heading-size;
+    line-height: 140%;
+}
+
+@mixin headline-1 {
+    font-family: $headline-1;
+    font-size: $headline-1-size;
+    line-height: $headline-1-line-height;
+}
+
+@mixin headline-2 {
+    font-family: $headline-2;
+    font-size: $headline-2-size;
+    line-height: $headline-2-line-height;
+    text-transform: uppercase;
+}
+
+@mixin sub-head {
+    font-family: $sub-head;
+    font-size: $sub-head-size;
+    line-height: $sub-head-line-height;
+    color: $red;
+}
+
+@mixin body-copy {
+    font-family: $body-copy;
+    font-size: $body-copy-size;
+    line-height: $body-copy-line-height;
+}
+
+@mixin link-text {    
+    font-family: $headline-2;
+    font-size: $body-copy-size;
+    line-height: $body-copy-line-height;
+    text-transform: uppercase;
+    border-bottom: solid 2px $red;
+    padding-bottom: 5px;
+}
+
+.hero-headline {
+    @include hero-headline;
+}
+
+.headline-1 {
+    @include headline-1;
+}
+
+.headline-2 {
+    @include headline-2;
+}
+
+.sub-head {
+    @include sub-head;
+}
+
+.body-copy {
+    @include body-copy;
+}
+
+.link-text {
+    @include link-text;
+}
+//==================================
+// typography helpers
+//==================================
+.text-caps {
+	text-transform: uppercase;
+}
+
+.red-text {
+	color: $red;
+}
+
+.footer-grey-text {
+	color: $footer-grey-text;
+}
+
+.grey-text {
+    color: $grey-text;
+}
+
+.white-text {
+	color: white;
+}
+
+.social-media-grey {
+	color: $social-media-grey;
+}
+
+//==================================
+// font-sizes
+//==================================
+.text-size-18 {
+    font-size: 18px;
+}
+//==================================
+// list styles
+//==================================
+.square-bullet-list {
+	list-style-type: none;
+	padding-left: 0;
+	li::before {		
+		/* color of square bullet */
+		content: "\25A0"; 
+		color: $red;
+		margin-right: 10px;
+	}
+}
