@@ -43,3 +43,14 @@ footer .footer-text {
     border-image: linear-gradient(to top, black, rgba(black, 0)) 1 100%;  
     z-index: 1;
 }
+
+//==================================
+// responsive styles
+//==================================
+@media all and (max-width: 480px) {
+    footer {
+        p.footer-text {
+            line-height: 180%;
+        }
+    }
+}

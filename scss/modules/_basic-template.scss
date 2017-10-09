@@ -2,7 +2,12 @@
 // Jumbotron
 //================================================
 .basic-template-jumbotron {
-    height: 550px;   
+    height: 100vh;
+    padding-top: 185px;  
+    
+    .banner-text {
+        margin: 60px auto 0 auto;
+    }
 }
 
 .jumbotron-btn {
@@ -10,7 +15,7 @@
 }
 
 .grid-break-card {
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .jumbotron.jumbotron-filler {

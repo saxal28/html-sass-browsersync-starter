@@ -1,6 +1,25 @@
 //==================================
 // Background Colors
 //==================================
+
+//Mobile Only
+@media all and (max-width: 480px) {
+    .white-bg-mobile {
+        background-color: white;
+    }
+}
+
+//Tablet only
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+//Dekstop Only
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    .white-bg-desktop {
+        background-color: white;
+    }
+}   
+
+//All 
 .white-bg {
 	background-color: white;
 }

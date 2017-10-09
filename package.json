@@ -1,7 +1,7 @@
 {
-  "name": "the-journey-static-site",
+  "name": "The-Journey",
   "version": "1.0.0",
-  "description": "Static Website for Zoltek",
+  "description": "Static Website for The-Journey",
   "main": "index.js",
     "scripts": {
     "build-css": "node-sass --include-path scss scss/main.scss build/css/style.min.css",

@@ -4,7 +4,7 @@
 @mixin hero-headline {
     font-family: $hero-headline;
     font-size: $hero-heading-size;
-    line-height: 140%;
+    line-height: 50px;
 }
 
 @mixin headline-1 {
@@ -42,6 +42,16 @@
     padding-bottom: 5px;
 }
 
+@mixin banner-text {
+    font-family: $headline-2;
+    background: $red;
+    height: 49px;
+    width: 148px;
+    padding: 13px;
+    color: white;
+    font-weight: 400;
+}
+
 .hero-headline {
     @include hero-headline;
 }
@@ -64,6 +74,10 @@
 
 .link-text {
     @include link-text;
+}
+
+.banner-text {
+    @include banner-text;
 }
 //==================================
 // typography helpers
@@ -98,6 +112,7 @@
 .text-size-18 {
     font-size: 18px;
 }
+
 //==================================
 // list styles
 //==================================
@@ -110,4 +125,13 @@
 		color: $red;
 		margin-right: 10px;
 	}
+}
+
+//==================================
+// responsive styles
+//==================================
+@media all and (max-width: 480px) {
+    .text-center-xs {
+        text-align: center;
+    }
 }
