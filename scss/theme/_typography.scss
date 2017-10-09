@@ -31,6 +31,7 @@
     font-family: $body-copy;
     font-size: $body-copy-size;
     line-height: $body-copy-line-height;
+    color: $grey-text;
 }
 
 @mixin link-text {    
@@ -50,6 +51,25 @@
     padding: 13px;
     color: white;
     font-weight: 400;
+}
+
+@mixin red-numbered-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;    
+
+    li {
+        counter-increment: step-counter;
+        line-height: $body-copy-line-height;
+        &:before {
+            content: counter(step-counter);
+            font-family: $headline-2;
+            font-size: $body-copy-size;
+            color: $red;
+            margin-right: 20px;
+            line-height: $body-copy-line-height;
+        }
+    }    
 }
 
 .hero-headline {
@@ -125,6 +145,10 @@
 		color: $red;
 		margin-right: 10px;
 	}
+}
+
+.red-numbered-list {
+    @include red-numbered-list;
 }
 
 //==================================

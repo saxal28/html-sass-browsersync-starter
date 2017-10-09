@@ -6449,7 +6449,8 @@ a.tab-arrow.no-bottom.red-text {
 .body-copy {
   font-family: "proxima-nova", "system-ui";
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+  color: #888888; }
 
 .link-text {
   font-family: "Oswald", "Impact";
@@ -6497,6 +6498,21 @@ a.tab-arrow.no-bottom.red-text {
     content: "\25A0";
     color: #f14e4a;
     margin-right: 10px; }
+
+.red-numbered-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .red-numbered-list li {
+    counter-increment: step-counter;
+    line-height: 24px; }
+    .red-numbered-list li:before {
+      content: counter(step-counter);
+      font-family: "Oswald", "Impact";
+      font-size: 16px;
+      color: #f14e4a;
+      margin-right: 20px;
+      line-height: 24px; }
 
 @media all and (max-width: 480px) {
   .text-center-xs {
