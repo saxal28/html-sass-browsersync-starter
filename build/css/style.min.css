@@ -6464,10 +6464,12 @@ a.tab-arrow.no-bottom.red-text {
   font-family: "Oswald", "Impact";
   background: #f14e4a;
   height: 49px;
-  width: 148px;
+  width: 168px;
   padding: 13px;
   color: white;
-  font-weight: 400; }
+  font-weight: 400;
+  display: block;
+  margin: 0 auto; }
 
 .text-caps {
   text-transform: uppercase; }

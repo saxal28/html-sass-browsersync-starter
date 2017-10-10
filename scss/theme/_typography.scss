@@ -47,10 +47,12 @@
     font-family: $headline-2;
     background: $red;
     height: 49px;
-    width: 148px;
+    width: 168px;
     padding: 13px;
     color: white;
     font-weight: 400;
+    display: block;
+    margin: 0 auto;
 }
 
 @mixin red-numbered-list {
