@@ -1,4 +1,3 @@
-# npm-script-local-dev
 Local Dev setup using NPM scripts
 
 ## Prequisite
