@@ -15,11 +15,6 @@ node -v
 
 ## Setting Up Project
 
-Clone repository to your machine.
-```
-git clone https://github.com/TRenfro/npm-script-local-dev.git
-```
-
 Install dependencies.
 Change directories from the command line into the root folder of the project and run this command.
 ```
