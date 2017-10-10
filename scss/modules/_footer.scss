@@ -5,6 +5,7 @@
 
     .action-icon {
         cursor: pointer;
+        user-select: none;
 
         &.fa { 
             color: $red; font-size: 19px; 
