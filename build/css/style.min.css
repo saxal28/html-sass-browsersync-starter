@@ -6354,6 +6354,20 @@ footer .locations-container {
   footer .journey-logo-nav-section {
     padding-bottom: 10px; } }
 
+footer .icon-container {
+  text-align: right; }
+  footer .icon-container p {
+    display: inline;
+    margin-right: 5px !important; }
+  footer .icon-container ul {
+    display: inline; }
+    footer .icon-container ul li {
+      margin-right: -3px;
+      padding-left: 12px;
+      padding-right: 12px;
+      cursor: pointer; }
+      footer .icon-container ul li:last-of-type {
+        margin-right: 0px; }
 
 footer .footer-text {
   line-height: 99%; }

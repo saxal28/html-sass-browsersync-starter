@@ -57,6 +57,31 @@ footer {
         }
      }
 
+     .icon-container {
+            text-align: right;  
+            
+            p {
+                display: inline;
+                margin-right: 5px !important;
+            }
+
+            ul {
+                display: inline;
+
+                li {
+                    margin-right: -3px;
+                    padding-left:12px; padding-right: 12px;
+                    cursor: pointer;
+
+                    &:last-of-type {
+                        margin-right: 0px;
+                    }
+                }
+
+            }
+        
+     }
+
 }
 
 footer .footer-text {
