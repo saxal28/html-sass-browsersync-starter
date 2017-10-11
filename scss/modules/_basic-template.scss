@@ -3,8 +3,11 @@
 //================================================
 .basic-template-jumbotron {
     height: 100vh;
-    padding-top: 185px; 
 
+    min-height: 700px;
+    height: 750px;
+    padding-top: 185px;  
+    
     .banner-text {
         margin: 60px auto 0 auto;
     }
