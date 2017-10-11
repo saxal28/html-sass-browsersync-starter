@@ -6425,12 +6425,25 @@ p.panel-text-tab {
 
 .tab-container {
   background: white; }
-  .tab-container li.active a::after {
+  .tab-container a::after {
+    transition: all 400ms !important; }
+  .tab-container .tab.active a::after {
     content: '';
     border-bottom: solid 3px #f14e4a;
     display: block;
-    width: 40px;
-    margin: 8px auto 0 auto; }
+    width: 50px;
+    margin: 8px auto 0 auto;
+    transition: all 400ms; }
+  .tab-container .tab:hover a::after {
+    content: '';
+    border-bottom: solid 3px #f14e4a;
+    display: block;
+    width: 50px;
+    margin: 8px auto 0 auto;
+    background: white !important;
+    transition: all 800ms; }
+  .tab-container a:hover, .tab-container a:focus {
+    background: white !important; }
 
 a.tab-arrow.no-bottom.red-text {
   text-align: right; }
