@@ -5808,6 +5808,8 @@ button.close {
     display: none !important; } }
 
 @media all and (max-width: 480px) {
+  .no-padding-mobile {
+    padding: 0 !important; }
   .pd-top-20-mobile {
     padding-top: 20px; }
   .pd-right-20-mobile {
@@ -6382,6 +6384,7 @@ p.panel-text-tab {
 .basic-template-jumbotron {
   height: 100vh;
   min-height: 700px;
+  height: 750px;
   padding-top: 185px; }
   .basic-template-jumbotron .banner-text {
     margin: 60px auto 0 auto; }
