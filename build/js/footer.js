@@ -1,10 +1,8 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
-
 
     // click fa-plus
     // adds/removes animation class  
-
+    // adds/removes correct icon
     $(".action-icon").click(function(){
         $(".locations-container").toggleClass("hide-locations-container");
 
