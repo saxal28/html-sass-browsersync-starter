@@ -6426,7 +6426,16 @@ a.tab-arrow.no-bottom.red-text {
   background-color: #00323f; }
 
 .blue-gradient-bg {
-  background: linear-gradient(#00323f, #002028); }
+  background: #003340;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #003340 0%, #0d3643 50%, #0d3643 50%, #0d3643 0%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #003340 0%, #0d3643 50%, #0d3643 50%, #0d3643 0%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #003340 0%, #0d3643 50%, #0d3643 50%, #0d3643 0%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003340', endColorstr='#0d3643',GradientType=0 );
+  /* IE6-9 */ }
 
 .red-bg {
   background-color: #f14e4a; }
