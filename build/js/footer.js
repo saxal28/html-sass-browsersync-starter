@@ -7,7 +7,22 @@ $( document ).ready(function() {
 
     $(".action-icon").click(function(){
         $(".locations-container").toggleClass("hide-locations-container");
-        $(".action-icon").toggleClass("fa-minus");
+
+        var activated = $(".action-icon").hasClass("fa-plus");
+
+        if(activated) {
+
+
+            $(".action-icon").removeClass("fa-plus");
+            $(".action-icon").addClass("fa-minus");
+
+
+        } else {
+
+           $(".action-icon").removeClass("fa-minus");
+           $(".action-icon").addClass("fa-plus");
+
+        }
     })
 
 });

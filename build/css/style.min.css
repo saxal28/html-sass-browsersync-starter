@@ -6425,8 +6425,6 @@ p.panel-text-tab {
 
 .tab-container {
   background: white; }
-  .tab-container a::after {
-    transition: all 400ms !important; }
   .tab-container .tab.active a::after {
     content: '';
     border-bottom: solid 3px #f14e4a;
