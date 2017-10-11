@@ -6381,6 +6381,7 @@ p.panel-text-tab {
 
 .basic-template-jumbotron {
   height: 100vh;
+  min-height: 700px;
   padding-top: 185px; }
   .basic-template-jumbotron .banner-text {
     margin: 60px auto 0 auto; }
