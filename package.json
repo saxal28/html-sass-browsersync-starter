@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "Static Website for The-Journey",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "build-css": "node-sass --include-path scss scss/main.scss build/css/style.min.css",
     "build-js": "browserify js/**.js >build/js/script.min.js",
     "watch:js": "onchange 'js/**.js' -- npm run build-js",
     "watch:css": "onchange 'scss/**/*.*' -- npm run build-css",
     "browser-sync": "browser-sync start --server build --files \"build/*.html, build/css/*.min.css\"",
-    "serve": "parallelshell 'npm run browser-sync' 'npm run watch:css' 'npm run watch:js'"
+    "serve": "npm run browser-sync && npm run watch:css && npm run watch:js"
   },
   "author": "Tyler Renfro",
   "license": "ISC",
-    "devDependencies": {
+  "devDependencies": {
     "browser-sync": "^2.18.12",
     "browserify": "^14.3.0",
     "node-sass": "^4.5.3",

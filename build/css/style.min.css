@@ -6312,6 +6312,13 @@ button.close {
   display: block;
   margin: 0 auto;
   width: 250px; }
+  .footer-find-location-bar .action-icon {
+    cursor: pointer;
+    user-select: none; }
+    .footer-find-location-bar .action-icon.fa {
+      color: #f14e4a;
+      font-size: 19px;
+      padding-left: 10px; }
   .footer-find-location-bar h2 {
     padding: 15px; }
 
@@ -6320,6 +6327,25 @@ footer * {
 
 footer .fa {
   font-size: 24px; }
+
+footer .locations-container {
+  transition: all 350ms;
+  height: 120px;
+  overflow: hidden; }
+  footer .locations-container.hide-locations-container {
+    height: 0;
+    padding: 0; }
+    footer .locations-container.hide-locations-container .col-xs-12 {
+      height: 0; }
+
+@media only screen and (max-width: 767px) {
+  footer .journey-logo-nav-section {
+    padding-top: 60px;
+    padding-bottom: 40px; } }
+
+@media only screen and (max-width: 480px) {
+  footer .journey-logo-nav-section {
+    padding-bottom: 10px; } }
 
 footer .footer-text {
   line-height: 99%; }
