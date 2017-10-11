@@ -6308,6 +6308,11 @@ button.close {
 .navbar-toggle {
   z-index: 3; }
 
+@media all and (max-width: 480px) {
+  nav.navbar {
+    padding-top: 30px;
+    padding-bottom: 30px; } }
+
 .footer-find-location-bar {
   display: block;
   margin: 0 auto;

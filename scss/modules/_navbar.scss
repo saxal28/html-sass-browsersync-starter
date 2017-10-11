@@ -38,3 +38,10 @@
 .navbar-toggle {
     z-index: 3;
 }
+
+@media all and (max-width: 480px) {
+    nav.navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
