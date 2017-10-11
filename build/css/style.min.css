@@ -6436,6 +6436,15 @@ a.tab-arrow.no-bottom.red-text {
 .cyan-bg {
   background-color: #4ae3f1; }
 
+.pattern-bg {
+  position: absolute;
+  display: block;
+  background: blue;
+  width: 100%;
+  height: 650px;
+  z-index: -1;
+  bottom: 0; }
+
 .btn-outline-blue-text {
   background: transparent;
   color: #00323f;

@@ -48,3 +48,13 @@
 .cyan-bg {
     background-color: $cyan;
 }
+
+.pattern-bg {
+    position: absolute;
+    display: block;
+    background: blue;
+    width: 100%;
+    height: 650px;
+    z-index: -1;
+    bottom: 0;
+}
