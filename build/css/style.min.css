@@ -6328,6 +6328,9 @@ button.close {
       padding-left: 10px; }
   .footer-find-location-bar h2 {
     padding: 15px; }
+  @media only screen and (max-width: 480px) {
+    .footer-find-location-bar {
+      display: none; } }
 
 footer * {
   color: white; }

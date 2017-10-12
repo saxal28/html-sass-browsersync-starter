@@ -9,8 +9,8 @@
         cursor: pointer;
         user-select: none;
 
-        &.fa { 
-            color: $red; font-size: 19px; 
+        &.fa {
+            color: $red; font-size: 19px;
             padding-left: 10px;
         }
 
@@ -19,9 +19,16 @@
     h2 {
         padding: 15px;
     }
+
+    @include respond-to($phone) {
+
+      display: none;
+
+    }
+
 }
 
-footer {    
+footer {
      * {
          color: white;
      }
@@ -35,7 +42,7 @@ footer {
         transition: all 350ms;
         height: 120px;
         overflow:hidden;
-   
+
         &.hide-locations-container {
             height: 0;
             padding: 0;
@@ -58,8 +65,8 @@ footer {
      }
 
      .icon-container {
-            text-align: right;  
-            
+            text-align: right;
+
             p {
                 display: inline;
                 margin-right: 5px !important;
@@ -79,7 +86,7 @@ footer {
                 }
 
             }
-        
+
      }
 
 }
@@ -94,19 +101,19 @@ footer .footer-text {
     border-width: 0 1px 0 0;
     border-style: solid;
     border-image: linear-gradient(to top, #034759, rgba(#034759, 0)) 1 100%;
-    height: 80px;    
-}  
+    height: 80px;
+}
 
-.double-border:before {    
+.double-border:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: -2px;
-    bottom: 0;    
+    bottom: 0;
     border-width: 0 1px 0 0;
     border-style: solid;
-    border-image: linear-gradient(to top, black, rgba(black, 0)) 1 100%;  
+    border-image: linear-gradient(to top, black, rgba(black, 0)) 1 100%;
     z-index: 1;
 }
 
