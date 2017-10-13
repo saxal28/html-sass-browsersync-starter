@@ -6490,11 +6490,12 @@ a.tab-arrow.no-bottom.red-text {
 .pattern-bg {
   position: absolute;
   display: block;
-  background: blue;
   width: 100%;
   height: 650px;
   z-index: -1;
-  bottom: 0; }
+  bottom: 0;
+  background: url("../images/patterns/Dark-Pattern.png");
+  -webkit-mask-image: -webkit-linear-gradient(bottom, #e6e6e6, rgba(230, 230, 230, 0)); }
 
 .btn-outline-blue-text {
   background: transparent;
