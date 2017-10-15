@@ -4283,14 +4283,6 @@ a.badge:hover, a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee; }
-  .jumbotron h1,
-  .jumbotron .h1 {
-    color: inherit; }
-  .jumbotron p {
-    margin-bottom: 15px;
-    font-size: 21px; }
-  .jumbotron > hr {
-    border-top-color: #d5d5d5; }
   .container .jumbotron,
   .container-fluid .jumbotron {
     border-radius: 2px;
@@ -6277,8 +6269,6 @@ button.close {
   padding: 0 !important; }
 
 .navbar {
-  padding-top: 60px;
-  padding-bottom: 60px;
   border-top: solid 10px #00323f;
   background-color: transparent;
   border-bottom: solid 1px white;
@@ -6309,6 +6299,16 @@ button.close {
 
 .navbar-toggle {
   z-index: 3; }
+
+.navbar-nav.center-nav {
+  width: 100%;
+  text-align: center; }
+  .navbar-nav.center-nav > li {
+    float: none;
+    display: inline-block; }
+
+.locations-sub-nav {
+  border-top: solid 1px white; }
 
 @media all and (max-width: 480px) {
   nav.navbar {
@@ -6449,6 +6449,16 @@ p.panel-text-tab {
 a.tab-arrow.no-bottom.red-text {
   text-align: right; }
 
+.location-template-jumbotron {
+  min-height: 100vh;
+  height: 100%;
+  padding-top: 250px;
+  background: linear-gradient(rgba(0, 50, 63, 0.05), #00323f), url("../images/backgrounds/locations-placeholder.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .location-template-jumbotron .banner-text {
+    margin: 60px auto 0 auto; }
+
 @media all and (max-width: 480px) {
   .white-bg-mobile {
     background-color: white; } }
@@ -6571,6 +6581,9 @@ a.tab-arrow.no-bottom.red-text {
 
 .social-media-grey {
   color: #c4c4bf; }
+
+.underline-anchor {
+  text-decoration: underline; }
 
 .text-size-18 {
   font-size: 18px; }

@@ -9,7 +9,7 @@
     "watch:js": "onchange 'js/**.js' -- npm run build-js",
     "watch:css": "onchange 'scss/**/*.*' -- npm run build-css",
     "browser-sync": "browser-sync start --server build --files \"build/*.html, build/css/*.min.css\"",
-    "serve": "npm run browser-sync && npm run watch:css && npm run watch:js"
+    "serve": "parallelshell 'npm run browser-sync' 'npm run watch:css' 'npm run watch:js'"
   },
   "author": "Tyler Renfro",
   "license": "ISC",
