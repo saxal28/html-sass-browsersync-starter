@@ -2,143 +2,147 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Local Dev Environment</title>
-    <!--Main Styles-->
-    <link rel="stylesheet" href="./css/style.min.css">
-    <!-- Google Web fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    <script src="https://use.typekit.net/ahe6mfb.js"></script>
-    <script>
-        try { Typekit.load({ async: true }); } catch (e) { }
-    </script>
-    <script src="https://use.fontawesome.com/d4186baee0.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Local Dev Environment</title>
+  <!--Main Styles-->
+  <link rel="stylesheet" href="./css/style.min.css">
+  <!-- Google Web fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+  <script src="https://use.typekit.net/ahe6mfb.js"></script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
+  <script src="https://use.fontawesome.com/d4186baee0.js"></script>
 </head>
 
 <body class="blue-bg">
-    <nav class="navbar pd-top-60 no-margin no-bottom" role="navigation">
-        <div class="container pd-bottom-40">
-            <div class="visible-xs">
-                <img class="no-margin center-block pd-top-20 pull-left" width="30px" src="./images/icons/MenuOpen.svg">
-                <img class="navbar-brand no-margin no-padding" width="100px" src="./images/logo/journey-mark-white.svg">
-                <img class="no-margin center-block pd-top-20 pull-right" width="30px" src="./images/icons/search.svg">
-            </div>
-            <a class="hidden-xs" href="#">
+  <nav class="navbar pd-top-60 no-margin no-bottom" role="navigation">
+    <div class="container pd-bottom-40">
+      <div class="visible-xs">
+        <img class="no-margin center-block pd-top-20 pull-left" width="30px" src="./images/icons/MenuOpen.svg">
+        <img class="navbar-brand no-margin no-padding" width="100px" src="./images/logo/journey-mark-white.svg">
+        <img class="no-margin center-block pd-top-20 pull-right" width="30px" src="./images/icons/search.svg">
+      </div>
+      <a class="hidden-xs" href="#">
                 <img class="navbar-brand no-margin" width="100px" src="./images/logo/journey-white.svg">
             </a>
-            <div class="navbar-collapse hidden-xs collapse no-padding">
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
-                        <a class="headline-2 white-text" href="#">The Journey Experience</a>
-                    </li>
-                    <li>
-                        <a class="headline-2 white-text" href="#about">Resources</a>
-                    </li>
-                    <li>
-                        <a class="headline-2 white-text" href="#about">About</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="headline-2 white-text" href="#about">
+      <div class="navbar-collapse hidden-xs collapse no-padding">
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a class="headline-2 white-text" href="#">The Journey Experience</a>
+          </li>
+          <li>
+            <a class="headline-2 white-text" href="#about">Resources</a>
+          </li>
+          <li>
+            <a class="headline-2 white-text" href="#about">About</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="headline-2 white-text" href="#about">
                             <i class="fa fa-calendar red-text mg-right-10" aria-hidden="true"></i>Plan a Visit</a>
-                    </li>
-                    <li>
-                        <a class="headline-2 white-text" href="#contact">
+          </li>
+          <li>
+            <a class="headline-2 white-text" href="#contact">
                             <i class="fa fa-heart red-text mg-right-10" aria-hidden="true"></i> Giving</a>
-                    </li>
-                    <li>
-                        <a class="headline-2 white-text" href="#contact">
+          </li>
+          <li>
+            <a class="headline-2 white-text" href="#contact">
                             <i class="fa fa-search red-text mg-right-10" aria-hidden="true"></i>Search</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="container-fluid locations-sub-nav">
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav center-nav">
-                    <li class="active">
-                        <a class="white-text headline-2" href="#">Tower Grove</a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="#">Details</a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="#">Ministry</a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="#">Events</a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="#">News</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="jumbotron location-template-jumbotron">
-        <div class="container text-center">
-            <div class="row mg-bottom-60">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                    <p class="banner-text headline-2 mg-top-60-desktop no-margin-bottom">Location</p>
-                    <h1 class="hero-headline mg-top-bottom-40-desktop white-text">Welcome to Tower Grove</h1>
-                    <p class="body-copy">
-                        <a class="underline-anchor text-size-18 white-text" href="#">2833 S. Kingshighway Blvd
-                            <br> St. Louis, MO 63101</a>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-sm-3">
-                    <img class="center-block img-responsive" height="40px" src="./images/icons/Time.svg">
-                    <h2 class="headline-2 red-text mg-bottom-20">Service Schedule</h2>
-                    <p class="white-text no-bottom">Saturday</p>
-                    <p class="white-text mg-bottom-20 no-padding">5:00 PM</p>
-                    <p class="white-text no-bottom">Sunday</p>
-                    <p class="white-text">9:00 AM, 11:00 AM</p>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <img class="center-block img-responsive" height="40px" src="./images/icons/Location Address.svg">
-                    <h2 class="headline-2 red-text mg-bottom-20">Office Address</h2>
-                    <p class="white-text mg-bottom-20">4900 Reber Place
-                        <br>St. Louis, MO 63139
-                    </p>
-                    <p class="white-text">
-                        <a class="underline-anchor white-text" href="#">View on Map</a>
-                    </p>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <img class="center-block img-responsive" height="40px" src="./images/icons/Contact.svg">
-                    <h2 class="headline-2 red-text mg-bottom-20">Contact Us</h2>
-                    <p class="white-text">P:
-                        <a class="underline-anchor white-text" href="#">314-282-8302</a>
-                    </p>
-                    <p class="white-text">T:
-                        <a class="underline-anchor white-text" href="#">314-282-8302</a>
-                    </p>
-                    <p class="white-text">
-                        <a class="underline-anchor white-text" href="#">hseaman@thejourney.org</a>
-                    </p>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <img class="center-block img-responsive" height="40px" src="./images/icons/Location Address.svg">
-                    <h2 class="headline-2 red-text mg-bottom-20">Join Us</h2>
-                    <p class="white-text">
-                        <a class="underline-anchor white-text" href="#">Plan a Visit</a>
-                    </p>
-                    <p class="white-text">
-                        <a class="underline-anchor white-text" href="#">Attend an Event</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="container-fluid white-bg-mobile">
-        <div class="container white-bg no-padding-mobile">
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                    <h1 class="headline-1 mg-top-60 no-bottom">If you don't know who Jesus is, we encourage you to read more about him in the New Testament gospels
+    <div class="container-fluid locations-sub-nav">
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav center-nav">
+          <li class="active">
+            <a class="white-text headline-2" href="#">Tower Grove</a>
+          </li>
+          <li>
+            <a class="white-text" href="#">Details</a>
+          </li>
+          <li>
+            <a class="white-text" href="#">Ministry</a>
+          </li>
+          <li>
+            <a class="white-text" href="#">Events</a>
+          </li>
+          <li>
+            <a class="white-text" href="#">News</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron location-template-jumbotron">
+    <div class="container text-center">
+      <div class="row mg-bottom-60">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          <p class="banner-text headline-2 mg-top-60-desktop no-margin-bottom">Location</p>
+          <h1 class="hero-headline mg-top-bottom-40-desktop white-text">Welcome to Tower Grove</h1>
+          <p class="body-copy">
+            <a class="underline-anchor text-size-18 white-text" href="#">2833 S. Kingshighway Blvd
+                            <br> St. Louis, MO 63101</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+          <img class="center-block img-responsive" height="40px" src="./images/icons/Time.svg">
+          <h2 class="headline-2 red-text mg-bottom-20">Service Schedule</h2>
+          <p class="white-text no-bottom">Saturday</p>
+          <p class="white-text mg-bottom-20 no-padding">5:00 PM</p>
+          <p class="white-text no-bottom">Sunday</p>
+          <p class="white-text">9:00 AM, 11:00 AM</p>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="center-block img-responsive" height="40px" src="./images/icons/Location Address.svg">
+          <h2 class="headline-2 red-text mg-bottom-20">Office Address</h2>
+          <p class="white-text mg-bottom-20">4900 Reber Place
+            <br>St. Louis, MO 63139
+          </p>
+          <p class="white-text">
+            <a class="underline-anchor white-text" href="#">View on Map</a>
+          </p>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="center-block img-responsive" height="40px" src="./images/icons/Contact.svg">
+          <h2 class="headline-2 red-text mg-bottom-20">Contact Us</h2>
+          <p class="white-text">P:
+            <a class="underline-anchor white-text" href="#">314-282-8302</a>
+          </p>
+          <p class="white-text">T:
+            <a class="underline-anchor white-text" href="#">314-282-8302</a>
+          </p>
+          <p class="white-text">
+            <a class="underline-anchor white-text" href="#">hseaman@thejourney.org</a>
+          </p>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="center-block img-responsive" height="40px" src="./images/icons/Location Address.svg">
+          <h2 class="headline-2 red-text mg-bottom-20">Join Us</h2>
+          <p class="white-text">
+            <a class="underline-anchor white-text" href="#">Plan a Visit</a>
+          </p>
+          <p class="white-text">
+            <a class="underline-anchor white-text" href="#">Attend an Event</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid white-bg-mobile">
+    <div class="container white-bg no-padding-mobile">
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <h1 class="headline-1 mg-top-60 no-bottom">If you don't know who Jesus is, we encourage you to read more about him in the New Testament gospels
                         (Matthew, Mark, Luke, and John), which detail his life and earthly ministry</h2>
                 </div>
             </div>

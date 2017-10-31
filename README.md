@@ -4,7 +4,7 @@ Local Dev setup using NPM scripts
 
 ### Node JS
 
-Download and install node. 
+Download and install node.
 https://nodejs.org/en/
 
 After installation, confirm that it's installed.
@@ -23,11 +23,5 @@ npm install
 Serve locally.
 After everything is set up, you will now have a working enviornment that will watch changes from your project, compile SASS to CSS, minify JS, and live reload.
 ```
-npm run serve
+npm run start
 ```
-
-
-
-
-
-
